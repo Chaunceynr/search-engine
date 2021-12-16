@@ -177,7 +177,7 @@ def make_report(engine,output,query_list):
 if __name__ == '__main__':
     # path = '../WEBPAGES_CLEAN/'
     index_file = 'index_dict.json'
-    bookkeeper_path = "/Users/josephesema/Developer/search-engine/Python-Search-Engine/bookkeeping.json"
+    bookkeeper_path = "/Users/ChaunceyRoders/Documents/search-engine/Python-Search-Engine/bookkeeping.json"
     ground_truth_file = 'google_results_latest.json'
 
     tfidf = 1.0

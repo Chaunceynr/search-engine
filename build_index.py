@@ -97,6 +97,6 @@ class Index:
 if __name__ == '__main__':
     print("start building index")
     path = '../WEBPAGES_CLEAN/'
-    bookkeeper_path = "/Users/josephesema/Developer/search-engine/Python-Search-Engine/bookkeeping.json"
+    bookkeeper_path = "/Users/ChaunceyRogers/Documents/search-engine/Python-Search-Engine/bookkeeping.json"
     new_index = Index(path, bookkeeper_path)
     new_index.build_index()
